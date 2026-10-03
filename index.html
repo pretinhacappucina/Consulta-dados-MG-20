@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Pesquisa de pessoas</h1>
+
+    <div class="abas">
+        <button id="nomeTab" class="ativa">Nome completo</button>
+        <button id="cpfTab">CPF</button>
+    </div>
+
+    <div class="pesquisa">
+        <input id="busca" type="text" placeholder="Digite o nome">
+
+        <button id="pesquisar">
+            Pesquisar
+        </button>
+    </div>
+
+    <div id="status">Carregando banco...</div>
+
+    <div id="resultados"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

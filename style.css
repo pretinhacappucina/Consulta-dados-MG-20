@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.abas {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.abas button {
+    border: 0;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #ddd;
+}
+
+.abas button.ativa {
+    background: #333;
+    color: white;
+}
+
+.pesquisa {
+    display: flex;
+    gap: 10px;
+}
+
+#busca {
+    flex: 1;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#pesquisar {
+    padding: 13px 20px;
+    border: 0;
+    border-radius: 6px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 15px;
+    color: #666;
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+.pessoa {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.pessoa div {
+    margin: 5px 0;
+}
